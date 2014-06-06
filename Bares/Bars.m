@@ -7,6 +7,7 @@
 //
 
 #import "Bars.h"
+#import "Bar.h"
 
 @interface Bars ()
 
@@ -18,15 +19,22 @@
 
 - (id)initWithFile:(NSString *)fileName {
     self = [self init];
-        NSString * fileNameAndPath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"];
-        NSArray *array = [NSArray arrayWithContentsOfFile:fileNameAndPath];
-        
-        for (NSDictionary *dict in array) {
-//            NSLog(@"Dictionary: %@", dict);
-//            Beer *beer = [[Beer alloc] init];
-//            beer.name = dict[@"name"];
+    NSString * fileNameAndPath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"];
+    NSArray *array = [NSArray arrayWithContentsOfFile:fileNameAndPath];
     
-        }
+    for (NSDictionary *dict in array) {
+        Bar *bar = [[Bar alloc] init];
+        bar.name = dict[@"name"];
+        bar.address = dict[@"address"];
+        bar.descriptionText = dict[@"description"];
+    
+        bar.rating = [(NSNumber *)dict[@"rating"] integerValue];
+        bar.longitude = [dict[@"longitude"] floatValue];
+        bar.longitude = [dict[@"latitude"] floatValue];
+        bar.photo = dict[@"photo"];
+        [_barList addObject:bar];
+        
+    }
     return self;
 }
 
@@ -37,6 +45,11 @@
     return self;
 }
 
+#pragma mark - Custom Getter
+
+- (NSUInteger)count {
+    return [self.barList count];
+}
 
 #pragma mark - Public Methods
 
@@ -44,7 +57,7 @@
     [self.barList addObject:bar];
 }
 
-- (void)removeBeer:(Bar *)bar {
+- (void)removeBar:(Bar *)bar {
     [self.barList removeObject:bar];
 }
 

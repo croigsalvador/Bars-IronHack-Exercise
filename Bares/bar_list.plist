@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>rating</key>
+		<string>4</string>
 		<key>name</key>
 		<string>Bar Reynols</string>
 		<key>address</key>
@@ -17,6 +19,8 @@
 		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
 	</dict>
 	<dict>
+		<key>rating</key>
+		<string>3</string>
 		<key>name</key>
 		<string>Bar SIMP</string>
 		<key>address</key>
@@ -31,10 +35,12 @@
 		<string>http://images.huffingtonpost.com/2012-12-19-OConnellSt_Huffington.jpg</string>
 	</dict>
 	<dict>
+		<key>rating</key>
+		<string>2</string>
 		<key>name</key>
-		<string>Bar Reynols</string>
+		<string>Bar Casa paco</string>
 		<key>address</key>
-		<string>c/ atocha</string>
+		<string>c/ atocha3</string>
 		<key>longitude</key>
 		<string>0.32232234</string>
 		<key>latitude</key>
@@ -42,11 +48,13 @@
 		<key>description</key>
 		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
 		<key>photo</key>
-		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+		<string>http://madrid-guide.homesfortravellers.com/es/images/bar-madrid-2.jpg</string>
 	</dict>
 	<dict>
+		<key>rating</key>
+		<string>2</string>
 		<key>name</key>
-		<string>Bar Reynols</string>
+		<string>Bar Camacho</string>
 		<key>address</key>
 		<string>c/ atocha</string>
 		<key>longitude</key>
@@ -56,11 +64,13 @@
 		<key>description</key>
 		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
 		<key>photo</key>
-		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+		<string>http://2.bp.blogspot.com/-Fb2OWUpo_BA/T1yn1WuG_CI/AAAAAAAAG9I/gUWpF7FWlgI/s1600/Bar+Casa+Camacho+Madrid+Malasa%C3%B1a.jpg</string>
 	</dict>
 	<dict>
+		<key>rating</key>
+		<string>5</string>
 		<key>name</key>
-		<string>Bar Reynols</string>
+		<string>Bar 5</string>
 		<key>address</key>
 		<string>c/ atocha</string>
 		<key>longitude</key>
@@ -70,13 +80,15 @@
 		<key>description</key>
 		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
 		<key>photo</key>
-		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+		<string>http://www.madrid-tourist-guide.com/images/int/bar/madrid-irish-bar-5-017.jpg</string>
 	</dict>
 	<dict>
+		<key>rating</key>
+		<string>3</string>
 		<key>name</key>
-		<string>Bar Reynols</string>
+		<string>Bodegas</string>
 		<key>address</key>
-		<string>c/ atocha</string>
+		<string>c/ atocha3</string>
 		<key>longitude</key>
 		<string>0.32232234</string>
 		<key>latitude</key>
@@ -84,7 +96,7 @@
 		<key>description</key>
 		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
 		<key>photo</key>
-		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+		<string>http://gb.fotolibra.com/images/previews/660539-tapas-wine-bar-madrid-spain.jpeg</string>
 	</dict>
 </array>
 </plist>

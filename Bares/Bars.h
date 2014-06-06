@@ -11,7 +11,7 @@
 @class Bar;
 
 @interface Bars : NSObject
-
+@property (nonatomic) NSUInteger count;
 
 #pragma mark - Initializers
 - (id)initWithFile:(NSString *)fileName;
@@ -19,7 +19,7 @@
 #pragma mark - Public Methods
 
 - (void)addBar:(Bar *)bar;
-- (void)removeBeer:(Bar *)bar;
+- (void)removeBar:(Bar *)bar;
 - (NSArray *)allBars;
 
 @end

@@ -12,11 +12,11 @@
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic,) NSString *address;
-@property (nonatomic) NSUInteger *rating;
-@property (strong, nonatomic) NSString *description;
+@property (nonatomic) NSUInteger rating;
+@property (strong, nonatomic) NSString *descriptionText;
 @property (nonatomic)float latitude;
 @property (nonatomic)float longitude;
-@property (strong, nonatomic) NSString *foto;
+@property (strong, nonatomic) NSString *photo;
 
 
 #pragma mark - Initializer
