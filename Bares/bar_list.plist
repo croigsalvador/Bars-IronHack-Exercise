@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Bar Reynols</string>
+		<key>address</key>
+		<string>c/ atocha</string>
+		<key>longitude</key>
+		<string>0.32232234</string>
+		<key>latitude</key>
+		<string>0.92392232</string>
+		<key>description</key>
+		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
+		<key>photo</key>
+		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bar SIMP</string>
+		<key>address</key>
+		<string>Sol</string>
+		<key>longitude</key>
+		<string>0.32232232</string>
+		<key>latitude</key>
+		<string>0.92391254</string>
+		<key>description</key>
+		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
+		<key>photo</key>
+		<string>http://images.huffingtonpost.com/2012-12-19-OConnellSt_Huffington.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bar Reynols</string>
+		<key>address</key>
+		<string>c/ atocha</string>
+		<key>longitude</key>
+		<string>0.32232234</string>
+		<key>latitude</key>
+		<string>0.92392232</string>
+		<key>description</key>
+		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
+		<key>photo</key>
+		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bar Reynols</string>
+		<key>address</key>
+		<string>c/ atocha</string>
+		<key>longitude</key>
+		<string>0.32232234</string>
+		<key>latitude</key>
+		<string>0.92392232</string>
+		<key>description</key>
+		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
+		<key>photo</key>
+		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bar Reynols</string>
+		<key>address</key>
+		<string>c/ atocha</string>
+		<key>longitude</key>
+		<string>0.32232234</string>
+		<key>latitude</key>
+		<string>0.92392232</string>
+		<key>description</key>
+		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
+		<key>photo</key>
+		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bar Reynols</string>
+		<key>address</key>
+		<string>c/ atocha</string>
+		<key>longitude</key>
+		<string>0.32232234</string>
+		<key>latitude</key>
+		<string>0.92392232</string>
+		<key>description</key>
+		<string>Es un bar muy bonito en madrid &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</string>
+		<key>photo</key>
+		<string>http://www.theexpeditioner.com/wordpress/wp-content/uploads/2013/06/Top_10_Tapas_Bars_In_Madrid_1.jpg</string>
+	</dict>
+</array>
+</plist>

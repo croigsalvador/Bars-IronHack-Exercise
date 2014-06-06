@@ -19,6 +19,10 @@
 		1DDBFD971941A8CA00142D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDBFD7F1941A8CA00142D36 /* UIKit.framework */; };
 		1DDBFD9F1941A8CA00142D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFD9D1941A8CA00142D36 /* InfoPlist.strings */; };
 		1DDBFDA11941A8CA00142D36 /* BaresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBFDA01941A8CA00142D36 /* BaresTests.m */; };
+		1DDBFDAC1941A8EB00142D36 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBFDAB1941A8EB00142D36 /* Bar.m */; };
+		1DDBFDB01941B05400142D36 /* Bars.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBFDAF1941B05400142D36 /* Bars.m */; };
+		1DDBFDB21941B39500142D36 /* BarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBFDB11941B39500142D36 /* BarsTests.m */; };
+		1DDBFDB41941B48500142D36 /* bar_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFDB31941B48500142D36 /* bar_list.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		1DDBFD9C1941A8CA00142D36 /* BaresTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaresTests-Info.plist"; sourceTree = "<group>"; };
 		1DDBFD9E1941A8CA00142D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DDBFDA01941A8CA00142D36 /* BaresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaresTests.m; sourceTree = "<group>"; };
+		1DDBFDAA1941A8EB00142D36 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		1DDBFDAB1941A8EB00142D36 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		1DDBFDAE1941B05400142D36 /* Bars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bars.h; sourceTree = "<group>"; };
+		1DDBFDAF1941B05400142D36 /* Bars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bars.m; sourceTree = "<group>"; };
+		1DDBFDB11941B39500142D36 /* BarsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarsTests.m; sourceTree = "<group>"; };
+		1DDBFDB31941B48500142D36 /* bar_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bar_list.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,8 @@
 				1DDBFD8B1941A8CA00142D36 /* AppDelegate.m */,
 				1DDBFD8D1941A8CA00142D36 /* Images.xcassets */,
 				1DDBFD821941A8CA00142D36 /* Supporting Files */,
+				1DDBFDAD1941B03E00142D36 /* Model */,
+				1DDBFDB31941B48500142D36 /* bar_list.plist */,
 			);
 			path = Bares;
 			sourceTree = "<group>";
@@ -131,6 +143,7 @@
 			children = (
 				1DDBFDA01941A8CA00142D36 /* BaresTests.m */,
 				1DDBFD9B1941A8CA00142D36 /* Supporting Files */,
+				1DDBFDB11941B39500142D36 /* BarsTests.m */,
 			);
 			path = BaresTests;
 			sourceTree = "<group>";
@@ -142,6 +155,17 @@
 				1DDBFD9D1941A8CA00142D36 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DDBFDAD1941B03E00142D36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DDBFDAA1941A8EB00142D36 /* Bar.h */,
+				1DDBFDAB1941A8EB00142D36 /* Bar.m */,
+				1DDBFDAE1941B05400142D36 /* Bars.h */,
+				1DDBFDAF1941B05400142D36 /* Bars.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDBFDB41941B48500142D36 /* bar_list.plist in Resources */,
 				1DDBFD861941A8CA00142D36 /* InfoPlist.strings in Resources */,
 				1DDBFD8E1941A8CA00142D36 /* Images.xcassets in Resources */,
 			);
@@ -239,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDBFDAC1941A8EB00142D36 /* Bar.m in Sources */,
+				1DDBFDB01941B05400142D36 /* Bars.m in Sources */,
 				1DDBFD8C1941A8CA00142D36 /* AppDelegate.m in Sources */,
 				1DDBFD881941A8CA00142D36 /* main.m in Sources */,
 			);
@@ -249,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DDBFDA11941A8CA00142D36 /* BaresTests.m in Sources */,
+				1DDBFDB21941B39500142D36 /* BarsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
