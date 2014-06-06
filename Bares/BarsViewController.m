@@ -10,6 +10,8 @@
 #import "Bars.h"
 #import "Bar.h"
 #import "DetailsViewController.h"
+#import "StarRatingView.h"
+
 
 static NSString *kDefaultStarImage                              = @"star-on.png";
 static NSString *kDefaultStarOffImage                           = @"star-off.png";
@@ -19,8 +21,9 @@ static NSString *kDefaultStarOffImage                           = @"star-off.png
 @property (weak, nonatomic) IBOutlet UIImageView *barImageView;
 @property (weak, nonatomic) IBOutlet UILabel *addressLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ratingLabel;
-@property (strong, nonatomic) WPRateView *rateView;
+@property (strong, nonatomic) RateView *rateView;
 
+@property (strong, nonatomic) StarRatingView *ratingView;
 
 @property (strong, nonatomic) NSArray *barArray;
 @property (nonatomic) int barIndex;
@@ -40,18 +43,31 @@ static NSString *kDefaultStarOffImage                           = @"star-off.png
     self.barIndex = 0;
     [self changeView];
     [self.view addSubview:self.rateView];
+    
+    
+    self.ratingView = [[StarRatingView alloc]initWithFrame:CGRectMake(50, 150, 200,20)];
+    self.ratingView.rateEnabled = NO;
+    self.ratingView.starWidth = 30.0f;
+    
+    // set star image
+    self.ratingView.fullImage = kDefaultStarImage;
+    self.ratingView.emptyImage = kDefaultStarOffImage;
+    self.ratingView.halfImage = kDefaultStarOffImage;
+    [self.view addSubview:self.ratingView];
+
+    
 }
 
 #pragma mark - Custom Better
 
--(WPRateView *)rateView
+-(RateView *)rateView
 {
     if(!rateView){
         
         CGRect viewFrame  = self.ratingLabel.frame;
         viewFrame.origin.x = CGRectGetMaxX(self.ratingLabel.frame) + 20;
         
-        rateView = [[WPRateView alloc] initWithFrame:viewFrame];
+        rateView = [[RateView alloc] initWithFrame:viewFrame];
         rateView.notSelectedImage = [UIImage imageNamed:kDefaultStarOffImage];
         rateView.halfSelectedImage = nil;
         rateView.fullSelectedImage = [UIImage imageNamed:kDefaultStarImage];
@@ -79,6 +95,9 @@ static NSString *kDefaultStarOffImage                           = @"star-off.png
     
     self.addressLabel.text = [NSString stringWithFormat:@"Address: %@",bar.address];
     self.rateView.rating = (float)bar.rating;
+   
+    [self.ratingView displayRating:bar.rating];
+
     
 }
 

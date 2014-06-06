@@ -9,7 +9,7 @@
 #import "DetailsViewController.h"
 #import <MapKit/MapKit.h>
 
-@interface DetailsViewController ()
+@interface DetailsViewController () 
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;

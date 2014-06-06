@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WPRateView.h"
+#import "RateView.h"
 
 @interface BarsViewController : UIViewController <RateViewDelegate>
 
